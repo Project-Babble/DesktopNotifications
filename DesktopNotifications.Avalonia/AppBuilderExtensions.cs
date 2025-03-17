@@ -49,7 +49,7 @@ public static class AppBuilderExtensions
         {
             manager.Initialize().GetAwaiter().GetResult();
         }
-        catch (Exception e)
+        catch (Exception)
         {
             // Notifications are disabled, just skip
             return builder;
